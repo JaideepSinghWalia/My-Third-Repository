@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37744" started-at="2019-09-23T09:06:49Z" finished-at="2019-09-23T09:07:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37744" started-at="2019-09-23T09:06:49Z" finished-at="2019-09-23T09:07:27Z">
+      <class name="com.test.Day4_1">
+        <test-method status="PASS" signature="startReportBeforeTest()[pri:0, instance:com.test.Day4_1@2af004b]" name="startReportBeforeTest" is-config="true" duration-ms="3061" started-at="2019-09-23T09:06:49Z" finished-at="2019-09-23T09:06:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReportBeforeTest -->
+        <test-method status="PASS" signature="testRegistration()[pri:1, instance:com.test.Day4_1@2af004b]" name="testRegistration" duration-ms="2933" started-at="2019-09-23T09:06:52Z" finished-at="2019-09-23T09:06:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method status="PASS" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:com.test.Day4_1@2af004b]" name="getResultAfterMethod" is-config="true" duration-ms="1022" started-at="2019-09-23T09:06:55Z" finished-at="2019-09-23T09:06:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistration status=SUCCESS method=Day4_1.testRegistration()[pri:1, instance:com.test.Day4_1@2af004b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method status="PASS" signature="testLogin()[pri:2, instance:com.test.Day4_1@2af004b]" name="testLogin" duration-ms="463" started-at="2019-09-23T09:06:56Z" finished-at="2019-09-23T09:06:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:com.test.Day4_1@2af004b]" name="getResultAfterMethod" is-config="true" duration-ms="584" started-at="2019-09-23T09:06:57Z" finished-at="2019-09-23T09:06:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=Day4_1.testLogin()[pri:2, instance:com.test.Day4_1@2af004b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method status="PASS" signature="testCart()[pri:3, instance:com.test.Day4_1@2af004b]" name="testCart" duration-ms="11887" started-at="2019-09-23T09:06:57Z" finished-at="2019-09-23T09:07:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCart -->
+        <test-method status="PASS" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:com.test.Day4_1@2af004b]" name="getResultAfterMethod" is-config="true" duration-ms="652" started-at="2019-09-23T09:07:09Z" finished-at="2019-09-23T09:07:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCart status=SUCCESS method=Day4_1.testCart()[pri:3, instance:com.test.Day4_1@2af004b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method status="PASS" signature="testPayment()[pri:4, instance:com.test.Day4_1@2af004b]" name="testPayment" duration-ms="11150" started-at="2019-09-23T09:07:10Z" finished-at="2019-09-23T09:07:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPayment -->
+        <test-method status="PASS" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:com.test.Day4_1@2af004b]" name="getResultAfterMethod" is-config="true" duration-ms="621" started-at="2019-09-23T09:07:21Z" finished-at="2019-09-23T09:07:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPayment status=SUCCESS method=Day4_1.testPayment()[pri:4, instance:com.test.Day4_1@2af004b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method status="PASS" signature="endReportAfterTest()[pri:0, instance:com.test.Day4_1@2af004b]" name="endReportAfterTest" is-config="true" duration-ms="5326" started-at="2019-09-23T09:07:22Z" finished-at="2019-09-23T09:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReportAfterTest -->
+      </class> <!-- com.test.Day4_1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
